@@ -17,7 +17,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example_server" {
-  ami           = "ami-04a81a99f5ec58529"
+  ami           = "ami-0862be96e41dcbf74"
   instance_type = var.instanceType
 
   tags = {
